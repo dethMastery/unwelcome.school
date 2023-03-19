@@ -10,6 +10,26 @@
     <link rel="stylesheet" href="./src/css/main.css">
   </head>
   <body>
+
+    <audio class="videoBox" id="bgMusic"></audio>
     
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+      let bg = document.querySelector('#bgMusic')
+
+      async function video() {
+        let link = 'https://yt.000198.xyz/api/?link=https://youtu.be/U1vFSgXzq0c'
+
+        let axi = await axios.get(link).then((rsp) => {
+          bg.src = rsp.data.info.url
+        })
+      }
+
+      video()
+      bg.load()
+      bg.autoplay = true
+      bg.loop = true
+    </script>
   </body>
 </html>
