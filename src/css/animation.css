@@ -1,0 +1,140 @@
+@keyframes aruJump {
+  0% {
+    margin-left: -10%;
+    margin-top: 70vh;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  5% {
+    margin-top: 65vh;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  10% {
+    margin-top: 70vh;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  15% {
+    margin-top: 65vh;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  20% {
+    margin-top: 70vh;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  25% {
+    margin-top: 65vh;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  30% {
+    margin-top: 70vh;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  35% {
+    margin-top: 65vh;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  40% {
+    margin-top: 70vh;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  45% {
+    margin-top: 65vh;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  49% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  50% {
+    margin-left: 80%;
+    margin-top: 70vh;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  55% {
+    margin-top: 65vh;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  60% {
+    margin-top: 70vh;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  65% {
+    margin-top: 65vh;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  70% {
+    margin-top: 70vh;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  75% {
+    margin-top: 65vh;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  80% {
+    margin-top: 70vh;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  
+  85% {
+    margin-top: 65vh;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  90% {
+    margin-top: 70vh;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  95% {
+    margin-top: 65vh;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  99% {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  100% {
+    margin-left: -10%;
+    margin-top: 70vh;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
