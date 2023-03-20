@@ -1,4 +1,5 @@
 @import url(./animation.css);
+@import url(https://cdn.katsuragi.cyou/fonts/TH/LINEseed-Regular);
 
 body {
   background: #2e2f2f;
@@ -9,6 +10,10 @@ body {
   height: 100vh;
 
   overflow: hidden;
+}
+
+html, body, h1, h2, a, div, span, p {
+  font-family: 'LINEseed-Regular', sans-serif;
 }
 
 h1 {
