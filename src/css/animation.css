@@ -139,8 +139,7 @@
   }
 }
 
-@keyframe minimalJump {
-  @keyframes aruJump {
+@keyframes minimalJump {
   0% {
     margin-top: 70vh;
   }
@@ -224,5 +223,4 @@
   100% {
     margin-top: 70vh;
   }
-}
 }
